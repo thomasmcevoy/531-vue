@@ -32,7 +32,7 @@ export default {
       increment: 5,
       exercises: [
         { name: "press", trainingMax: 100 },
-        { name: "deadlift", trainingMax: 245 },
+        { name: "deadlift", trainingMax: 235 },
         { name: "bench", trainingMax: 140 },
         { name: "squat", trainingMax: 130 }
       ]
