@@ -29,6 +29,15 @@
         >
         <label for="5">5 lbs</label>
       </div>
+      <div class="menu-item">
+        <div>Exercises</div>
+        <input
+          type="checkbox"
+          name="press"
+          v-model="this.exercises[0].isVisible"
+        >
+
+      </div>
     </div>
   </div>
 </template>

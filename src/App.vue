@@ -31,10 +31,10 @@ export default {
       menuIsOpen: false,
       increment: 5,
       exercises: [
-        { name: "press", trainingMax: 100 },
-        { name: "deadlift", trainingMax: 235 },
-        { name: "bench", trainingMax: 140 },
-        { name: "squat", trainingMax: 130 }
+        { name: "press", trainingMax: 100, isVisible: true },
+        { name: "deadlift", trainingMax: 235, isVisible: true },
+        { name: "bench", trainingMax: 140, isVisible: true },
+        { name: "squat", trainingMax: 130, isVisible: true }
       ]
     };
   },
